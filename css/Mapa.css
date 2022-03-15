@@ -1,0 +1,13 @@
+.cuadro-grande{
+    background-color: hsla(0, 0%, 0%,0.5);
+    border: 2px solid hsl(41, 100%, 69%);
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-left: 5%;
+}
+
+.cuadro-grande h1{
+    text-align: center;
+    color: hsl(41, 100%, 69%);
+    font-size: 2.5em;
+}

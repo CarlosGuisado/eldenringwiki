@@ -1,0 +1,115 @@
+.cuadro-grande{
+    background-color: hsla(0, 0%, 0%,0.5);
+    border: 2px solid hsl(41, 100%, 69%);
+    margin-top: 5%;
+}
+
+.cuadro-grande h1{
+    text-align: center;
+    color: hsl(41, 100%, 69%);
+    font-size: 2.5em;
+}
+
+.texto1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+.cuadro-mediano{
+    margin-top: 5%;
+}
+
+.cuadro-mediano{
+    text-align: center;
+    color: hsl(41, 100%, 69%);
+    font-size: 2em;
+}
+
+.cuadro-pequeño{
+    background-color: hsla(0, 0%, 0%,0.5);
+    border: 1px solid hsl(41, 100%, 69%);
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+
+.cuadro-pequeño h2{
+    margin-top: 0.5%;
+    text-align: center;
+    color: hsl(41, 100%, 69%);
+    font-size: 2em;
+}
+
+.requisitos-texto{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+/*Media Jquery para tablets*/
+
+@media screen and (max-width:1500px) {
+    .cuadro-grande{
+        background-color: hsla(0, 0%, 0%,0.5);
+        border: 2.5px solid hsl(41, 100%, 69%);
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .cuadro-grande h1{
+        text-align: center;
+        color: hsl(41, 100%, 69%);
+        font-size: 1.5em;
+    }
+    
+    .texto1{
+        color: hsl(0, 0%, 100%);
+        font-size: 1em;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        text-align: justify;
+    }
+    
+    .cuadro-mediano{
+        margin-top: 5%;
+    }
+    
+    .cuadro-mediano{
+        text-align: center;
+        color: hsl(41, 100%, 69%);
+        font-size: 2em;
+    }
+    
+    .cuadro-pequeño{
+        background-color: hsla(0, 0%, 0%,0.5);
+        border: 1px solid hsl(41, 100%, 69%);
+        margin-top: 2.5%;
+        margin-bottom: 5%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
+    .cuadro-pequeño h2{
+        margin-top: 0.5%;
+        text-align: center;
+        color: hsl(41, 100%, 69%);
+        font-size: 1.5em;
+    }
+    
+    .requisitos-texto{
+        color: hsl(0, 0%, 100%);
+        font-size: 1em;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        text-align: justify;
+    }
+}
